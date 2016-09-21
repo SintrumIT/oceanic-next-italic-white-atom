@@ -85,12 +85,12 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #F99157;
 }
 
-.constant.language.this.js {
+.constant.language.this.js, .constant.language.this.ts {
   font-style: italic;
   color: #EC5F67;
 }
 
-.string, .constant.other.symbol, .constant.other.key, .entity.other.inherited-class, .markup.heading, .markup.inserted.git_gutter, .meta.group.braces.curly .constant.other.object.key.js .string.unquoted.label.js {
+.string, .constant.other.symbol, .constant.other.key, .entity.other.inherited-class, .markup.heading, .markup.inserted.git_gutter, .meta.group.braces.curly .constant.other.object.key.js .string.unquoted.label.js, .meta.group.braces.curly .constant.other.object.key.ts .string.unquoted.label.ts {
   color: #5FB3B3;
 }
 
@@ -98,7 +98,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #FAC863;
 }
 
-.entity.name.module.js, .variable.import.parameter.js, .variable.other.class.js {
+.entity.name.module.js, .entity.name.module.ts, .variable.import.parameter.js, .variable.import.parameter.ts, .variable.other.class.js, .variable.other.class.ts {
   color: #EC5F67;
 }
 
@@ -107,11 +107,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #EC5F67;
 }
 
-.entity.name.method.js {
+.entity.name.method.js, .entity.name.method.ts {
   color: #F99157;
 }
 
-.meta.class-method.js .entity.name.function.js, .variable.function.constructor {
+.meta.class-method.js .entity.name.function.js, .meta.class-method.ts .entity.name.function.ts, .variable.function.constructor {
   color: #D8DEE9;
 }
 
@@ -152,12 +152,12 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #99C794;
 }
 
-.tag.decorator.js .entity.name.tag.js, .tag.decorator.js .punctuation.definition.tag.js {
+.tag.decorator.js .entity.name.tag.js, .tag.decorator.js .punctuation.definition.tag.js, .tag.decorator.ts .entity.name.tag.ts, .tag.decorator.ts .punctuation.definition.tag.ts  {
   font-style: italic;
   color: #6699CC;
 }
 
-.source.js .constant.other.object.key.js .string.unquoted.label.js {
+.source.js .constant.other.object.key.js .string.unquoted.label.js, .source.ts .constant.other.object.key.ts .string.unquoted.label.ts {
   font-style: italic;
   color: #EC5F67;
 }
